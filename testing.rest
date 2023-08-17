@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pY29sZWMyMyIsImlkIjoiNjRkZGM1MjZkNWEyNmU0OTEwZjllZTI5IiwiaWF0IjoxNjkyMjU1NTM0fQ.nTVsZUqMqQNgwLiw6HCZSiVfjkmtVL41FDA-HM1aVsA
+
+  {
+    "title": "React",
+    "author": "Robert C. Martin",
+    "url": "testing.com",
+    "likes": 33
+  }
+  
+

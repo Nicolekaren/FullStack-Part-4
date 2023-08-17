@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxpbHk0NCIsImlkIjoiNjRkZGM3NzNmNDE5Mzc3M2IzMjlmZjVjIiwiaWF0IjoxNjkyMjU2MTI4fQ.goFoXdOvNf4RHDjtfS-iM5waOIz3G1SoFPEiOzZULOg
+  
+  {
+    "title": "Web Dev",
+    "author": "John Smith",
+    "url": "webDev.com",
+    "likes": 9
+
+  }
+
